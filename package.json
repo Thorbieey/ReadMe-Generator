@@ -1,14 +1,23 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command-line application that dynamically generates a professional README.md file from a user's input using the NPM Inquirer package.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thorbieey/ReadMe-Generator.git"
+  },
+  "keywords": [],
+  "author": "Tobi Olajide",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thorbieey/ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/Thorbieey/ReadMe-Generator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^8.2.5"
   }
 }
