@@ -85,11 +85,11 @@ async function init() {
                         <main>
                             <h1>${title}</h1>
                             <div id = "description">
-                                <h1>Description</h1>
+                                <h2>Description</h2>
                                 <p>${description}</p>
                             </div>
                             <div>
-                                <h1>Table of Contents</h1>
+                                <h2>Table of Contents</h2>
                                 <ul>
                                     <li><a href="#description">Description</a> </li>
                                     <li><a href="#installation">Installation</a> </li>
@@ -101,27 +101,27 @@ async function init() {
                                 </ul>
                             </div>
                             <div id = "installation">
-                                <h1>Installation</h1>
+                                <h2>Installation</h2>
                                 <p>${installation}</p>
                             </div>
                             <div id = "usage">
-                                <h1>Usage</h1>
+                                <h2>Usage</h2>
                                 <p>${usage}</p>
                             </div>
                             <div id = "license">
-                                <h1>License</h1>
+                                <h2>License</h2>
                                 <p>${license}</p>
                             </div>
                             <div id = "contributors">
-                                <h1>Contributors</h1>
+                                <h2>Contributors</h2>
                                 <p>${contributing}</p>
                             </div>
                             <div id = "tests">
-                                <h1>Tests</h1>
+                                <h2>Tests</h2>
                                 <p>${tests}</p>
                             </div>
                             <div id = "question">
-                                <h1>Questions</h1>
+                                <h2>Questions</h2>
                                 <p>${question}</p>
                             </div>
                         </main>
