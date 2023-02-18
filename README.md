@@ -4,7 +4,7 @@
   
 This is an awesome app
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 ## Table of Contents
@@ -28,10 +28,10 @@ None
 ### Deployed Application
 
 * The URL of the deployed application:
-[https://None](https://None)
+[https://thorbieey.github.io/Weather-Dashboard/](https://thorbieey.github.io/Weather-Dashboard/)
 
 * The URL of the GitHub repository: 
-[https://None](https://None)
+[https://github.com/Thorbieey/Weather-Dashboard.git](https://github.com/Thorbieey/Weather-Dashboard.git)
 
 ### Screenshots/Demo
 
@@ -40,14 +40,14 @@ None
 
 ---
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-License used for this application: **Apache 2.0 License**. Learn more about [choosing licenses](https://choosealicense.com/licenses/).
+This application is covered under: **The MIT License**. Learn more about [choosing licenses](https://choosealicense.com/licenses/).
 
 ---
 ## Contributors
 
-No Contributors
+No Contributions
 
 ---
 ## Tests
@@ -57,6 +57,12 @@ None
 ---
 ## Questions
 
-None
+Got any questions/enquiries? Reach out to **John Doe** via:
+
+Email: tobiolajide887@yahoo.com
+
+GitHub: [Thorbieey](https://github.com/Thorbieey)
+
+LinkedIn: https://www.linkedin.com/in/tobi-olajide/
   
 ---

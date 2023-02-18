@@ -30,10 +30,10 @@ ${data.installation}
 ### Deployed Application
 
 * The URL of the deployed application:
-[https://${data.usage}](https://${data.usage})
+[${data.deployedAppUrl}](${data.deployedAppUrl})
 
 * The URL of the GitHub repository: 
-[https://${data.usage}](https://${data.usage})
+[${data.repoUrl}](${data.repoUrl})
 
 ### Screenshots/Demo
 
@@ -44,7 +44,7 @@ ${data.installation}
 ## License
 ${data.licenseBadge}
 
-License used for this application: **${data.license}**. Learn more about [choosing licenses](https://choosealicense.com/licenses/).
+This application is covered under: **${data.license}**. Learn more about [choosing licenses](https://choosealicense.com/licenses/).
 
 ---
 ## Contributors
@@ -59,7 +59,13 @@ ${data.tests}
 ---
 ## Questions
 
-${data.question}
+Got any questions/enquiries? Reach out to **${data.author}** via:
+
+Email: ${data.email}
+
+GitHub: [${data.gitHub}](${data.gitHubLink})
+
+LinkedIn: ${data.linkedIn}
   
 ---
 `;

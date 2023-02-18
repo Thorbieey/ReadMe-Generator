@@ -24,9 +24,15 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'usage',
-        message: "Please enter the usage criterias for the app",
-        default: "None"
+        name: 'deployedAppUrl',
+        message: "Please enter the link for the deployed application",
+        default: "https://thorbieey.github.io/Weather-Dashboard/"
+    },
+    {
+        type: 'input',
+        name: 'repoUrl',
+        message: "Please enter the link for the application's gitHub repository",
+        default: "https://github.com/Thorbieey/Weather-Dashboard.git"
     },
     {
         type: 'list',
@@ -40,20 +46,44 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: "Please list your contributors. Hint: John Doe Jane Doe",
-        default: "No Contributors"
+        message: "Please enter contribution guidelines",
+        default: "No Contributions"
     },
     {
         type: 'input',
         name: 'tests',
-        message: "Please list your tests",
+        message: "Please enter test instructions",
         default: "None"
     },
     {
         type: 'input',
-        name: 'question',
-        message: "Please list your questions",
-        default: "None"
+        name: 'author',
+        message: "Please enter your full name. Hint: John Doe",
+        default: "John Doe"
+    },
+    {
+        type: 'input',
+        name: 'gitHub',
+        message: "Please enter your github username",
+        default: "Thorbieey"
+    },
+    {
+        type: 'input',
+        name: 'gitHubLink',
+        message: "Please enter the link to your github profile",
+        default: "https://github.com/Thorbieey"
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: "Please enter your email address",
+        default: "tobiolajide887@yahoo.com"
+    },
+    {
+        type: 'input',
+        name: 'linkedIn',
+        message: "Please enter your linkedIn URL",
+        default: "https://www.linkedin.com/in/tobi-olajide/"
     }
 ];
 
