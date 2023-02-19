@@ -97,23 +97,43 @@ When contributing to this repository, please first discuss the change you wish t
 
 ### Pull Request Process
 
-1. Create a feature branch.
+1. Fork the repository
+
+2. Create a feature branch.
 
         git checkout -b name/feature/new-feature
 
-2. Add and commit your changes.
+3. Add and commit your changes.
 
+        git add .
         git commit -m "short description of feature"
 
-3. Push your contribution to the created branch.
+4. Push your contribution to the created branch.
 
         git push
 
-4. Submit a new Pull Request on GitHub.
+5. Submit a new Pull Request on GitHub.
+
 ---
 ## Tests
 
 None
+
+---
+## Credits
+
+- [Check out the most popular open source licenses on GitHub](https://github.blog/2015-03-09-open-source-license-usage-on-github-com/)
+
+- [A guide to your basic **markdown** syntax](https://www.markdownguide.org/basic-syntax/)
+
+- [Check out this cool example of a great contributing section for your README](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
+
+- [Explore npm's: **inquirer**](https://www.npmjs.com/package/inquirer)
+
+- [Screen-record, edit and share videos with Screencastify](https://www.screencastify.com/)
+
+- [Learn about contributing people's projects on GitHub](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
 
 ---
 ## Questions
