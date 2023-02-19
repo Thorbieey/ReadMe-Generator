@@ -8,6 +8,10 @@ ${data.description}
 
 ${data.licenseBadge}
 
+### User Story
+
+### Acceptance Criteria
+
 ---
 ## Table of Contents
 
@@ -21,6 +25,10 @@ ${data.licenseBadge}
 
 ---
 ## Installation
+
+- Clone repo
+
+        git clone ${data.repoUrl}
 
 ${data.installation}
 
@@ -38,6 +46,7 @@ ${data.installation}
 ### Screenshots/Demo
 
 ![Untitled Image](./)
+
 ![Untitled Gif](./)
 
 ---
@@ -59,7 +68,7 @@ ${data.tests}
 ---
 ## Questions
 
-Got any questions/enquiries? Reach out to **${data.author}** via:
+Got any additional questions/enquiries? Reach out to **${data.author}** via:
 
 Email: ${data.email}
 

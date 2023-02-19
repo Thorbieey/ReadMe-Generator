@@ -1,6 +1,7 @@
 import inquirer from 'inquirer';
 import fs from 'fs/promises';
-import generateMarkdown from './utils/generateMarkdown.js';
+import generateMarkdown from './assets/utils/generateMarkdown.js';
+import generateLicenseBadge from './assets/utils/generateLicenseBadge.js';
 
 // array of questions for user
 const questions = [
@@ -19,20 +20,19 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: "Please enter the necessary installation process for your application",
-        default: "None"
+        message: "Please enter the necessary installation process for your application"
     },
     {
         type: 'input',
         name: 'deployedAppUrl',
         message: "Please enter the link for the deployed application",
-        default: "https://thorbieey.github.io/Weather-Dashboard/"
+        default: "None"
     },
     {
         type: 'input',
         name: 'repoUrl',
         message: "Please enter the link for the application's gitHub repository",
-        default: "https://github.com/Thorbieey/Weather-Dashboard.git"
+        default: "None"
     },
     {
         type: 'list',
@@ -47,7 +47,7 @@ const questions = [
         type: 'input',
         name: 'contributing',
         message: "Please enter contribution guidelines",
-        default: "No Contributions"
+        default: "No Contributions allowed on this project"
     },
     {
         type: 'input',
@@ -70,20 +70,19 @@ const questions = [
     {
         type: 'input',
         name: 'gitHubLink',
-        message: "Please enter the link to your github profile",
-        default: "https://github.com/Thorbieey"
+        message: "Please enter the link to your github profile"
     },
     {
         type: 'input',
         name: 'email',
         message: "Please enter your email address",
-        default: "tobiolajide887@yahoo.com"
+        default: "None"
     },
     {
         type: 'input',
         name: 'linkedIn',
         message: "Please enter your linkedIn URL",
-        default: "https://www.linkedin.com/in/tobi-olajide/"
+        default: "Currently not on LinkedIn"
     }
 ];
 
@@ -102,21 +101,10 @@ async function init() {
     )
     // add generated license badge to response object
     response.licenseBadge = generateLicenseBadge(response.license)
+    // display reponse in console
+    console.log(response);
     // call function to write README file
     writeToFile("README.md", generateMarkdown(response))
 }
 
 // function to generate licence badge. Provides license info on click of badge
-function generateLicenseBadge(license) {
-    if (license === "The MIT License") {
-        return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
-    } else if (license === "ISC License (ISC)") {
-        return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
-    } else if (license === "GNU GPL v2") {
-        return "[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)"
-    }else if (license === "GNU GPL v3") {
-        return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
-    }else if (license === "Apache 2.0 License") {
-        return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-    }
-}

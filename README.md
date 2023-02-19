@@ -6,6 +6,10 @@ This is an awesome app
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+### User Story
+
+### Acceptance Criteria
+
 ---
 ## Table of Contents
 
@@ -20,7 +24,11 @@ This is an awesome app
 ---
 ## Installation
 
-None
+- Clone repo
+
+        git clone None
+
+
 
 ---
 ## Usage 
@@ -28,14 +36,15 @@ None
 ### Deployed Application
 
 * The URL of the deployed application:
-[https://thorbieey.github.io/Weather-Dashboard/](https://thorbieey.github.io/Weather-Dashboard/)
+[None](None)
 
 * The URL of the GitHub repository: 
-[https://github.com/Thorbieey/Weather-Dashboard.git](https://github.com/Thorbieey/Weather-Dashboard.git)
+[None](None)
 
 ### Screenshots/Demo
 
 ![Untitled Image](./)
+
 ![Untitled Gif](./)
 
 ---
@@ -47,7 +56,7 @@ This application is covered under: **The MIT License**. Learn more about [choosi
 ---
 ## Contributors
 
-No Contributions
+No Contributions allowed on this project
 
 ---
 ## Tests
@@ -57,12 +66,12 @@ None
 ---
 ## Questions
 
-Got any questions/enquiries? Reach out to **John Doe** via:
+Got any additional questions/enquiries? Reach out to **John Doe** via:
 
-Email: tobiolajide887@yahoo.com
+Email: None
 
-GitHub: [Thorbieey](https://github.com/Thorbieey)
+GitHub: [Thorbieey]()
 
-LinkedIn: https://www.linkedin.com/in/tobi-olajide/
+LinkedIn: Currently not on LinkedIn
   
 ---
