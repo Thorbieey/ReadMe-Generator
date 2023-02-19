@@ -1,8 +1,8 @@
-# Untitled Project
+# README Generator -OT
   
 ## Description 
   
-This is an awesome app
+A command-line application that dynamically generates a professional README.md file from a user's inpu using th [Inquirer package](http://www.npmjstes.com/package/inquirer).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -26,9 +26,9 @@ This is an awesome app
 
 - Clone repo
 
-        git clone None
+        git clone https://github.com/Thorbieey/ReadMe-Generator.git
 
-
+Initialize npm and install dependencies. - Run **index.mjs** in command line    node index.mjs
 
 ---
 ## Usage 
@@ -39,13 +39,17 @@ This is an awesome app
 [None](None)
 
 * The URL of the GitHub repository: 
-[None](None)
+[https://github.com/Thorbieey/ReadMe-Generator.git](https://github.com/Thorbieey/ReadMe-Generator.git)
 
 ### Screenshots/Demo
 
-![Untitled Image](./)
+![Screenshot-1](./assets/images/screenshot-readme-generator-1.png)
 
-![Untitled Gif](./)
+![Screenshot-2](./assets/images/screenshot-readme-generator-2.png)
+
+![Screenshot-3](./assets/images/screenshot-readme-generator-3.png)
+
+![Untitled Gif](./assets/images/demo-readme-gen.gif)
 
 ---
 ## License
@@ -56,7 +60,7 @@ This application is covered under: **The MIT License**. Learn more about [choosi
 ---
 ## Contributors
 
-No Contributions allowed on this project
+When contributing to this repository, please first discuss the change you wish to make via email, issue, linkedIn or any other method with the owner of this repository before making a change. 
 
 ---
 ## Tests
@@ -66,12 +70,12 @@ None
 ---
 ## Questions
 
-Got any additional questions/enquiries? Reach out to **John Doe** via:
+Got any additional questions/enquiries? Reach out to **Tobi Olajide** via:
 
-Email: None
+Email: tobiolajide223@gmail.com
 
-GitHub: [Thorbieey]()
+GitHub: [Thorbieey](https://github.com/Thorbieey)
 
-LinkedIn: Currently not on LinkedIn
+LinkedIn: https://www.linkedin.com/in/tobi-olajide/
   
 ---
